@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Deploy AWS website code">9ed45c3b47461110315c6285d36d438f</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:14:07</sys_created_on>
+        <sys_id>aa3614bb47461110315c6285d36d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Deploy AWS website code</sys_name>
+        <sys_package display_value="Red Hat Summit Connect 2022" source="x_903017_red_hat_0">e931983747461110315c6285d36d4317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Red Hat Summit Connect 2022">e931983747461110315c6285d36d4317</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_aa3614bb47461110315c6285d36d43d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:14:07</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Red Hat Summit Connect 2022">e931983747461110315c6285d36d4317</application>
+        <file_path/>
+        <instance_id>7ee34b65db2d51983050ac44d496193a</instance_id>
+        <instance_name>dev133030</instance_name>
+        <name>sc_cat_item_catalog_aa3614bb47461110315c6285d36d43d6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Deploy AWS website code">9ed45c3b47461110315c6285d36d438f</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-26 19:14:07</sys_created_on><sys_id>aa3614bb47461110315c6285d36d43d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Deploy AWS website code</sys_name><sys_package display_value="Red Hat Summit Connect 2022" source="x_903017_red_hat_0">e931983747461110315c6285d36d4317</sys_package><sys_policy/><sys_scope display_value="Red Hat Summit Connect 2022">e931983747461110315c6285d36d4317</sys_scope><sys_update_name>sc_cat_item_catalog_aa3614bb47461110315c6285d36d43d6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-26 19:14:07</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-500248332</payload_hash>
+        <record_name>Service Catalog.Deploy AWS website code</record_name>
+        <reverted_from/>
+        <source>6d31983747461110315c6285d36d4319</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:14:07</sys_created_on>
+        <sys_id>623614bb47461110315c6285d36d43dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1837b388e5b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:14:07</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>e63614bb414611100269011c7f9758db</update_guid>
+        <update_guid_history>e63614bb414611100269011c7f9758db:-500248332</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Deploy AWS website code">7f3654bb47461110315c6285d36d438d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:14:13</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>5f0aed1a91124410b4993f25beb48900</sys_id>
+        <sys_metadata>aa3614bb47461110315c6285d36d43d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Deploy AWS website code</sys_name>
+        <sys_package display_value="Red Hat Summit Connect 2022" source="x_903017_red_hat_0">e931983747461110315c6285d36d4317</sys_package>
+        <sys_parent display_value="Deploy AWS website code">9ed45c3b47461110315c6285d36d438f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Red Hat Summit Connect 2022">e931983747461110315c6285d36d4317</sys_scope>
+        <sys_scope_delete display_value="">304642dbf2c948ca928ab601c6152ee1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_aa3614bb47461110315c6285d36d43d6</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_aa3614bb47461110315c6285d36d43d6">623614bb47461110315c6285d36d43dc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:14:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

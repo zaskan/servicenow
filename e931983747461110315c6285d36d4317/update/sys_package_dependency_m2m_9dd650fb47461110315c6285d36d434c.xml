@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Configuration Management (CMDB)" source="com.snc.cmdb">f4d608f921120110a866589604c20d4d</dependency>
+        <min_version>1.1</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:16:46</sys_created_on>
+        <sys_id>9dd650fb47461110315c6285d36d434c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Red Hat Summit Connect 2022" source="x_903017_red_hat_0">e931983747461110315c6285d36d4317</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:16:46</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

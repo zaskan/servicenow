@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Deploy AWS website code">9ed45c3b47461110315c6285d36d438f</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:14:21</sys_created_on>
+        <sys_id>064694bb47461110315c6285d36d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Deploy AWS website code.Any User</sys_name>
+        <sys_package display_value="Red Hat Summit Connect 2022" source="x_903017_red_hat_0">e931983747461110315c6285d36d4317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Red Hat Summit Connect 2022">e931983747461110315c6285d36d4317</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_064694bb47461110315c6285d36d43f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:14:21</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

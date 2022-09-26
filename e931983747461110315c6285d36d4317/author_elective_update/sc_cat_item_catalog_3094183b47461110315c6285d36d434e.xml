@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Developer Equipment">f771dc3747461110315c6285d36d435e</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:06:55</sys_created_on>
+        <sys_id>3094183b47461110315c6285d36d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Developer Equipment</sys_name>
+        <sys_package display_value="Red Hat Summit Connect 2022" source="x_903017_red_hat_0">e931983747461110315c6285d36d4317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Red Hat Summit Connect 2022">e931983747461110315c6285d36d4317</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_3094183b47461110315c6285d36d434e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:06:55</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Red Hat Summit Connect 2022">e931983747461110315c6285d36d4317</application>
+        <file_path/>
+        <instance_id>7ee34b65db2d51983050ac44d496193a</instance_id>
+        <instance_name>dev133030</instance_name>
+        <name>sc_cat_item_catalog_3094183b47461110315c6285d36d434e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Developer Equipment">f771dc3747461110315c6285d36d435e</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-26 19:06:55</sys_created_on><sys_id>3094183b47461110315c6285d36d434e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Developer Equipment</sys_name><sys_package display_value="Red Hat Summit Connect 2022" source="x_903017_red_hat_0">e931983747461110315c6285d36d4317</sys_package><sys_policy/><sys_scope display_value="Red Hat Summit Connect 2022">e931983747461110315c6285d36d4317</sys_scope><sys_update_name>sc_cat_item_catalog_3094183b47461110315c6285d36d434e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-26 19:06:55</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>810880201</payload_hash>
+        <record_name>Service Catalog.Developer Equipment</record_name>
+        <reverted_from/>
+        <source>6d31983747461110315c6285d36d4319</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:06:55</sys_created_on>
+        <sys_id>bc94183b47461110315c6285d36d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1837b31f4ef0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:06:55</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>3494183b1e461110f0bc6a34e0b8115f</update_guid>
+        <update_guid_history>3494183b1e461110f0bc6a34e0b8115f:810880201</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Developer Equipment">d0a4583b47461110315c6285d36d4318</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:07:08</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>28ed71fb70a34332893976a078a2fa81</sys_id>
+        <sys_metadata>3094183b47461110315c6285d36d434e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Developer Equipment</sys_name>
+        <sys_package display_value="Red Hat Summit Connect 2022" source="x_903017_red_hat_0">e931983747461110315c6285d36d4317</sys_package>
+        <sys_parent display_value="Developer Equipment">f771dc3747461110315c6285d36d435e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Red Hat Summit Connect 2022">e931983747461110315c6285d36d4317</sys_scope>
+        <sys_scope_delete display_value="">304642dbf2c948ca928ab601c6152ee1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_3094183b47461110315c6285d36d434e</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_3094183b47461110315c6285d36d434e">bc94183b47461110315c6285d36d435f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:07:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>3e5538b40f112010157b31ef68767e8f</copied_from>
+        <copied_from_name>Flow Template: Create an approva</copied_from_name>
+        <description/>
+        <internal_name>developer_equipment_approval</internal_name>
+        <label_cache>[{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.price","label":"Trigger➛Requested Item Record➛Price","reference":"","reference_display":"Price","type":"currency","base_type":"currency","parent_table_name":"sc_req_item","column_name":"price"},{"name":"d9557edf-8362-4b28-9bad-1862cef8068e.approval_state","label":"3➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>developer_equipment_approval</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a72758fb47461110315c6285d36d43cf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>developer_equipment_approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Red Hat Summit Connect 2022" source="x_903017_red_hat_0">e931983747461110315c6285d36d4317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Red Hat Summit Connect 2022">e931983747461110315c6285d36d4317</sys_scope>
+        <sys_update_name>sys_hub_flow_a72758fb47461110315c6285d36d43cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:19</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=a72758fb47461110315c6285d36d43cf"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a72758fb47461110315c6285d36d43cf"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=a72758fb47461110315c6285d36d43cf^sys_idNOT INfb2798fb47461110315c6285d36d4338"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>Waits for an item to be requested.</comment>
+        <display_text/>
+        <flow display_value="developer_equipment_approval">a72758fb47461110315c6285d36d43cf</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:19</sys_created_on>
+        <sys_id>fb2798fb47461110315c6285d36d4338</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:19</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fb2798fb47461110315c6285d36d4338"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a72758fb47461110315c6285d36d43cf^sys_idNOT IN083798fb47461110315c6285d36d4347,0c3798fb47461110315c6285d36d4347,843798fb47461110315c6285d36d4347,883798fb47461110315c6285d36d4347,8c3798fb47461110315c6285d36d4346"/>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>6</component_indexes>
+        <duration>1970-01-02 00:00:00</duration>
+        <flow display_value="developer_equipment_approval">a72758fb47461110315c6285d36d43cf</flow>
+        <label>Fulfillment</label>
+        <order>3</order>
+        <stage_id>d6044151-fa4b-4ae6-be8e-f814db166d0a</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:19</sys_created_on>
+        <sys_id>083798fb47461110315c6285d36d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:19</sys_updated_on>
+        <type>standard</type>
+        <value>Fulfillment</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>1</component_indexes>
+        <duration>1970-01-02 00:00:00</duration>
+        <flow display_value="developer_equipment_approval">a72758fb47461110315c6285d36d43cf</flow>
+        <label>Waiting for approval</label>
+        <order>0</order>
+        <stage_id>195c661a-1d2c-491b-9895-58c930498d43</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:19</sys_created_on>
+        <sys_id>0c3798fb47461110315c6285d36d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:19</sys_updated_on>
+        <type>standard</type>
+        <value>Waiting for approval</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>7</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="developer_equipment_approval">a72758fb47461110315c6285d36d43cf</flow>
+        <label>Completed</label>
+        <order>4</order>
+        <stage_id>d634c366-555d-4813-8cf7-86a0d096d268</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:19</sys_created_on>
+        <sys_id>843798fb47461110315c6285d36d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:19</sys_updated_on>
+        <type>standard</type>
+        <value>Completed</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>4</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="developer_equipment_approval">a72758fb47461110315c6285d36d43cf</flow>
+        <label>Request cancelled</label>
+        <order>1</order>
+        <stage_id>ee1d0961-a0ef-4d6a-b055-26cdb6afbb25</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:19</sys_created_on>
+        <sys_id>883798fb47461110315c6285d36d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:19</sys_updated_on>
+        <type>standard</type>
+        <value>Request cancelled</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>5</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="developer_equipment_approval">a72758fb47461110315c6285d36d43cf</flow>
+        <label>Request approved</label>
+        <order>2</order>
+        <stage_id>f4f92a7c-4bab-4cea-9623-7e353752a81d</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:19</sys_created_on>
+        <sys_id>8c3798fb47461110315c6285d36d4346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:19</sys_updated_on>
+        <type>standard</type>
+        <value>Request approved</value>
+    </sys_hub_flow_stage>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a72758fb47461110315c6285d36d43cf^sys_idNOT IN672758fb47461110315c6285d36d43d1"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a72758fb47461110315c6285d36d43cf</id>
+        <name>developer_equipment_approval</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:17</sys_created_on>
+        <sys_id>672758fb47461110315c6285d36d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:17</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=672758fb47461110315c6285d36d43d1"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=a72758fb47461110315c6285d36d43cf^sys_idNOT IN332758fb47461110315c6285d36d43df,a32758fb47461110315c6285d36d43d9"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="developer_equipment_approval">a72758fb47461110315c6285d36d43cf</model>
+        <model_id>a72758fb47461110315c6285d36d43cf</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a72758fb47461110315c6285d36d43cf</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>332758fb47461110315c6285d36d43df</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Red Hat Summit Connect 2022">e931983747461110315c6285d36d4317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="developer_equipment_approval">a72758fb47461110315c6285d36d43cf</model>
+        <model_id>a72758fb47461110315c6285d36d43cf</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a72758fb47461110315c6285d36d43cf</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>a32758fb47461110315c6285d36d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Red Hat Summit Connect 2022">e931983747461110315c6285d36d4317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=a72758fb47461110315c6285d36d43cf"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a72758fb47461110315c6285d36d43cf"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a72758fb47461110315c6285d36d43cf^sys_idNOT IN3f2798fb47461110315c6285d36d4337,732798fb47461110315c6285d36d4333,b72798fb47461110315c6285d36d432e,bf2798fb47461110315c6285d36d4320,f32798fb47461110315c6285d36d4329,fb2798fb47461110315c6285d36d4318"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment>Add your own Actions that occur when the request is completed</comment>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="developer_equipment_approval">a72758fb47461110315c6285d36d43cf</flow>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:19</sys_created_on>
+        <sys_id>3f2798fb47461110315c6285d36d4337</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Red Hat Summit Connect 2022">e931983747461110315c6285d36d4317</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:19</sys_updated_on>
+        <ui_id>71c11297-1442-495b-8347-e3c2de4f95cd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3f2798fb47461110315c6285d36d4337"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4^id=3f2798fb47461110315c6285d36d4337"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3f2798fb47461110315c6285d36d4337"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3f2798fb47461110315c6285d36d4337"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment>Add your own Actions to occur when the Request is complete</comment>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="developer_equipment_approval">a72758fb47461110315c6285d36d43cf</flow>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:19</sys_created_on>
+        <sys_id>732798fb47461110315c6285d36d4333</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Red Hat Summit Connect 2022">e931983747461110315c6285d36d4317</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:19</sys_updated_on>
+        <ui_id>3cfe5300-826f-45ea-82ea-90461635c1c9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=732798fb47461110315c6285d36d4333"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>732798fb47461110315c6285d36d4333</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:19</sys_created_on>
+        <sys_id>b32798fb47461110315c6285d36d4334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:19</sys_updated_on>
+        <value>done</value>
+        <variable display_value="Message">23c1bcc6531003003bf1d9109ec587e5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4^id=732798fb47461110315c6285d36d4333"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=732798fb47461110315c6285d36d4333"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=732798fb47461110315c6285d36d4333"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment>Add your own Actions for approved request</comment>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="developer_equipment_approval">a72758fb47461110315c6285d36d43cf</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>b72798fb47461110315c6285d36d432e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Red Hat Summit Connect 2022">e931983747461110315c6285d36d4317</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <ui_id>31f0448d-dd5d-40c5-ab4b-3fe2b0eaca2d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b72798fb47461110315c6285d36d432e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b72798fb47461110315c6285d36d432e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>f72798fb47461110315c6285d36d432f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <value>Approved</value>
+        <variable display_value="Message">23c1bcc6531003003bf1d9109ec587e5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4^id=b72798fb47461110315c6285d36d432e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b72798fb47461110315c6285d36d432e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b72798fb47461110315c6285d36d432e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <comment>Ask the requester's Manager for approval</comment>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="developer_equipment_approval">a72758fb47461110315c6285d36d43cf</flow>
+        <order>3</order>
+        <parent_ui_id>747207aa-3f7d-4cd3-89ae-6165526f373c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>bf2798fb47461110315c6285d36d4320</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Red Hat Summit Connect 2022">e931983747461110315c6285d36d4317</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <ui_id>d9557edf-8362-4b28-9bad-1862cef8068e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bf2798fb47461110315c6285d36d4320"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bf2798fb47461110315c6285d36d4320</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>3b2798fb47461110315c6285d36d4324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bf2798fb47461110315c6285d36d4320</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>3f2798fb47461110315c6285d36d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bf2798fb47461110315c6285d36d4320</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>772798fb47461110315c6285d36d4324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <value>ApprovesRejectsAny</value>
+        <variable display_value="Approval Conditions">45f2e9920b10030085c083eb37673aee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bf2798fb47461110315c6285d36d4320</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>b32798fb47461110315c6285d36d4324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bf2798fb47461110315c6285d36d4320</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>ff2798fb47461110315c6285d36d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bf2798fb47461110315c6285d36d4320"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>bf2798fb47461110315c6285d36d4320</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>f72798fb47461110315c6285d36d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>bf2798fb47461110315c6285d36d4320</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>fb2798fb47461110315c6285d36d4322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>bf2798fb47461110315c6285d36d4320</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>372798fb47461110315c6285d36d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>bf2798fb47461110315c6285d36d4320</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>bf2798fb47461110315c6285d36d4322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>bf2798fb47461110315c6285d36d4320</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>732798fb47461110315c6285d36d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>bf2798fb47461110315c6285d36d4320</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>bb2798fb47461110315c6285d36d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bf2798fb47461110315c6285d36d4320"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bf2798fb47461110315c6285d36d4320"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment>Add your own Actions for a declined request</comment>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="developer_equipment_approval">a72758fb47461110315c6285d36d43cf</flow>
+        <order>5</order>
+        <parent_ui_id>cea77095-25a8-4c7e-99b9-d06ffef8e5fd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>f32798fb47461110315c6285d36d4329</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Red Hat Summit Connect 2022">e931983747461110315c6285d36d4317</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <ui_id>ecd7ad6f-bb45-4a68-af63-2f58826c247a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f32798fb47461110315c6285d36d4329"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f32798fb47461110315c6285d36d4329</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>bb2798fb47461110315c6285d36d432a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <value>Item is not approved</value>
+        <variable display_value="Message">23c1bcc6531003003bf1d9109ec587e5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4^id=f32798fb47461110315c6285d36d4329"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f32798fb47461110315c6285d36d4329"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f32798fb47461110315c6285d36d4329"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment>Select the catalog item and variables to use in your flow</comment>
+        <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="developer_equipment_approval">a72758fb47461110315c6285d36d43cf</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>fb2798fb47461110315c6285d36d4318</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Red Hat Summit Connect 2022">e931983747461110315c6285d36d4317</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:20</sys_updated_on>
+        <ui_id>cb52581a-689d-4795-b62c-1fbd871bbdcb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fb2798fb47461110315c6285d36d4318"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fb2798fb47461110315c6285d36d4318</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>fb2798fb47461110315c6285d36d431a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:20</sys_updated_on>
+        <value>f771dc3747461110315c6285d36d435e</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fb2798fb47461110315c6285d36d4318"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>fb2798fb47461110315c6285d36d4318</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>7b2798fb47461110315c6285d36d431a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>fb2798fb47461110315c6285d36d4318</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>b72798fb47461110315c6285d36d431a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fb2798fb47461110315c6285d36d4318"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fb2798fb47461110315c6285d36d4318"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a72758fb47461110315c6285d36d43cf"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=a72758fb47461110315c6285d36d43cf^sys_idNOT IN7f2798fb47461110315c6285d36d4304,b72758fb47461110315c6285d36d43ff"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3b2798fb47461110315c6285d36d4304</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="developer_equipment_approval">a72758fb47461110315c6285d36d43cf</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>747207aa-3f7d-4cd3-89ae-6165526f373c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>7f2798fb47461110315c6285d36d4304</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <ui_id>cea77095-25a8-4c7e-99b9-d06ffef8e5fd</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7f2798fb47461110315c6285d36d4304"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>7f2798fb47461110315c6285d36d4304</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>b32798fb47461110315c6285d36d4314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <value>if not approved</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7f2798fb47461110315c6285d36d4304"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>7f2798fb47461110315c6285d36d4304</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>332798fb47461110315c6285d36d4314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{d9557edf-8362-4b28-9bad-1862cef8068e.approval_state}}!=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>7f2798fb47461110315c6285d36d4304</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>7f2798fb47461110315c6285d36d4313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=7f2798fb47461110315c6285d36d4304"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7f2798fb47461110315c6285d36d4304"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">fb2758fb47461110315c6285d36d43fe</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="developer_equipment_approval">a72758fb47461110315c6285d36d43cf</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>b72758fb47461110315c6285d36d43ff</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:21</sys_updated_on>
+        <ui_id>747207aa-3f7d-4cd3-89ae-6165526f373c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b72758fb47461110315c6285d36d43ff"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b72758fb47461110315c6285d36d43ff</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>bb2798fb47461110315c6285d36d4303</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:20</sys_updated_on>
+        <value>Price is over $1000000000</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b72758fb47461110315c6285d36d43ff"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>b72758fb47461110315c6285d36d43ff</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>3b2798fb47461110315c6285d36d4303</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:21</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Service Catalog_1.request_item.price}}&gt;1000000000</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>b72758fb47461110315c6285d36d43ff</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>ff2798fb47461110315c6285d36d4302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b72758fb47461110315c6285d36d43ff"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b72758fb47461110315c6285d36d43ff"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a72758fb47461110315c6285d36d43cf"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a72758fb47461110315c6285d36d43cf"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a72758fb47461110315c6285d36d43cf^sys_idNOT INb72758fb47461110315c6285d36d43fc,f32758fb47461110315c6285d36d43de"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a72758fb47461110315c6285d36d43cf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>b72758fb47461110315c6285d36d43fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Red Hat Summit Connect 2022" source="x_903017_red_hat_0">e931983747461110315c6285d36d4317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Red Hat Summit Connect 2022">e931983747461110315c6285d36d4317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a72758fb47461110315c6285d36d43cf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:18:18</sys_created_on>
+        <sys_id>f32758fb47461110315c6285d36d43de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Red Hat Summit Connect 2022" source="x_903017_red_hat_0">e931983747461110315c6285d36d4317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Red Hat Summit Connect 2022">e931983747461110315c6285d36d4317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:18:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a72758fb47461110315c6285d36d43cf"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_a72758fb47461110315c6285d36d43cf"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a72758fb47461110315c6285d36d43cf"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=a72758fb47461110315c6285d36d43cf"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=a72758fb47461110315c6285d36d43cf"/>
+</record_update>

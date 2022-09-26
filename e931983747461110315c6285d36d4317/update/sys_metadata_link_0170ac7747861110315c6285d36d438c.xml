@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>1a302c7747861110315c6285d36d435b</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ssh_private_key_credentials">
+    <ssh_private_key_credentials action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Red Hat Summit Connect 2022">e931983747461110315c6285d36d4317</application>
+        <applies_to>all</applies_to>
+        <authentication_key/>
+        <authentication_protocol/>
+        <classification>ssh</classification>
+        <context_name/>
+        <credential_id/>
+        <credential_storage_vault display_value="CyberArk">2bb9bebab7462010eca29a85de11a96d</credential_storage_vault>
+        <credential_store_type>other</credential_store_type>
+        <lookup_key>credential_id</lookup_key>
+        <mid_list/>
+        <name>zaskan</name>
+        <order>100</order>
+        <password/>
+        <privacy_key/>
+        <privacy_protocol/>
+        <ssh_passphrase/>
+        <ssh_private_key>﷞﷟﷒971a487f47061110315c6285d36d43aa﷬﷔1﷬﷭VpcHOmqtu4UB8qzH3ew3WQ==LbruiMSAw8SI1YiyGPfWteAzGjvHHnhWDlvdzDB9rsPJF-bOCAMLdHiQAN1yMy9ios9OckzqeQYDTy6b_DRY8BpbRsRwnuxsyunzskrrhXkE41n0Jj6zZYbxX2QyfPs_oQ6lHnzzP2wjdFiNYFdtOW9p579tR-yFTTbvEFP5e-kOOOzxFVx9uForGYJkyBT4SLMR8__C53vpQVHokAKShhdw6L41buGfJBhCpH3goUkG54CQao3SgboTNnqUDFfR2xeMPmWJtPXD77dU4NGevephngtp3EiBaoYvPnJK_m22d8mhCHqsDHDvuyVWpvBg_TTDUjlT1zfc-unhmUKYzZRjm--uMKjE182duzDzpT3t8a2wjYJaFhHlqgKje-1R-XdZwf8hbXRpc-l6raFy__RqjBAfqY8bj5Sty_0tY-f1d0WPhjze9hA7bZAtsqqqOF9p8UZuhtms8-PyPtRBf4Iv12vKM12Bl_8Q_Tq8h0f0-cOuTybilNvj6XoMPZ6ITJHFpA2t7Ap0VFwrMmhIgzBJWIffKygh2QVL3eWkkVUniE4m6mb9h6-w64Ns5ENm1LX2CldRbL4SgGfckcTrm-p3S4i11BiU_xe7Dh-FhHs0T9DFx8BQq_YimXHgVi025EmPPDYsUlBiyhPqX4q7tTexqyj6q2Duy0Bo6NJKk0BUWUvCzaRI5D-F3TuuJ7nvLnm3-mB-aqj2AmvtXahFKIXUm6KHciosSRKhfKS47QyYAC-Nrrc0mux9CF1U3GQ-LBzmxSBgBLwKg_O-pLVr_4ds9BGIzralxSi-x8zpeKxhMF-ZxYtKEJXLY-DRrwlXQdB3xk4qlhJ3MBXylXpStxMAQBAOT00J_tyf3NYYw_qKJX_OO1mja4gdOvCYU6aG5tsB2rbpbexl-lVqDaF7k_-IBN4d5ZXkVcG6U7zFjn3ZAPpt4-XaW_2jXiBeti6BV6LeieiX8783dRxPkidwKXY9hHX9IxFRqRehO-ARbQeCUlMOLLlvJVj2QkqAQ_lrEC-IHln3Sdn00seqRZjMV6bqg_8YNNE4xJz2a7EPPowz5ASlIxA9NFL_sYBkIbuDG3vKci4Hh1kSYZgqGSVY3d3NKav9wvHRIofR1wcnsYy7R7ffhD8PyB8OBoKcfU9zOgDEM6SpZtVMANq4AvjvIpIn4JYw5xXTi_-5oSe7mNbl42E4oXwpP37aC72GphybqE9tBAT_SyCxgOxeWErHLy0DAZPCeho83QuBM7amkP59x_1dkE9Xp7XBE2M8_p0RPYctm3HVPUYHTsHacyjM2F5I-QBsOKILUcsg4SkyOB64RbGSB2pGQEhb9sYB0Kq_sh3TYQKIh6E45Zyvq2107joeervEHyLTV5Y6F6gfHKQ20g8qyXP_MTv2EXarDt3HeyeZBHHKGGxQFD9uvwaGAOfdFdMh9PU1iOJ1SwkJCxWbIk6ppJ2LI_78jA_PUJmX6RaumKYG-I5lB80XetYgAJ1tcFw1KmCElL9u6W37aQJgkBt3fX4-Hh0kvCnNnOVBxilfZZ_f5jPz_kpohNd-v-roVvECJFr2dxNDnF4wKuwf5NyYdbOZe9tRQgomLH3FsyUIFopf1fiucfWhugJ31-wm2861duoSlEme5f8uGvl_Id7uSyLuKFEkvMnYnOv8ucjNv-2cNNOyui-Ha6augEKjR3_WlKGp-ev2-mm8-AtwIGiy-e6YjJyogqNN3QZMNepxU0QfdHwnyWs94hEgWUPttjSPMkAOwSS9oynpIzQBqX627vtKJzUjNpt7Rcyy14ljC9k7nb_p4Lz5RfEakupv0o-RhsV36iU4iO4nKTTl-2dlMeBinX5NNdWDN9wJtJZZSSJN58AFVwG4z3pTvLj-4jI-XpK7WG_XS6fjcOQ_Bw7G8sIQJVi69xAXZSSSNku7V3eMJyG4gudkFvzryytCrbwpLfECcWT8xj9tBvkEPnYbsYHCuJ7pvVYNP4J9mZn3Dbw3mRLBCKyL-81UL0hIR0MwrFjKVDmKS347hHNY81fA-34VusC6P-Ehx5zYoqmwJdu1UBXTGxJfQhkAZvWDEHiYWAK-tOWtCE394yUGvpoYoPLNzHR-6VBBqeheITWmUj5N8qfhERmsu9mbd3GXW7RHSJorL6QumA_6KyjD5hpO6llgv134iqUr9lVS34-mqXm6LI5STejG0hMFFZ0t6SFSxIvBkv8K71Ez7yij1_0aLkNQRJY25kkGoaGl7WCsPPPnuCamvOeufbJ9jrhjXkIA8MFQ_UetJAWESBjA7vN6TYBUqE_0phz7tzWPfqBpor-zsnZQ2lw6LUveq3ZO2nLtRJbEiKg5FxVS9FQTGhNHMRztbsF_GSbLq60e7CcpYXERFT1Pr_qykU5Xhfqai9ugSoWJt0wS3l3gQsJ76HvAXnVfWXgE1AoOJOZOhFtCsXJ5CZnSaefFm7iVPJQPXV4EwIlt7JtYPTnlTNpqhXe6cljVc_XrCZFKkPbxW89DqJGuN_OqxXh6kmOOfSmRfPZZBgKAMy37pZQMgnh73laditfLJSzr6x7IdiSvewize8f45Uzosr-QCi2jnAgpnyUlEymlx6ie494CaCyBkLcIsdi_GPtgjzkbUh0ne8s04VPDh6tT1UguPHmnyKgE6ZxN-8qPOEizxklCwLeQkv0sJSgUrrHiU8xn3CQ4rNDowcam6obgIs_bIS-G2jCHP65mTRl_X7fzdGjWBzA-p5Bpo4GS76UNTTAkPOGvSYnweo1u_HOcXV5wf5hyD7JaXe7SKNg6cPFsFX8i_RstX3V1tcej_FInHJ-dI4Z09s7Bc-FBJkmHBir1bdoaScaMkwiRqo6qmEvyQxQts_nc0crNAyUn97b4pAkNMDhqLJWGyM81t0Uf7JlUb7wLNl0c_feLDhcgwK5VgyFMlakmGjudfgUPvuTYHDCV8pXqW06Rf0AhGvbfBpU1SRGdecjFDhUak979gDEmVmMSYeJH8YjYPXP1OkwcjpUVLP6Vx1uwruw0riU1aGN2_DWnVDByOwoASjwi3UCQ5Fsm7sWai1mMMMFEbjNnbQ1CjotGdXnN-TGmG63uvbLELBQ5n3Rga6YgzW2YUQ7fzneOG05mmp-biRuauCy0fTIERexTEPloVwYHOZbr_Sckia_5xctT1FkfvvZr5JMNtVipXqLg9GLPf3dByrj1GTQdHMC5SWXSi2NknaOC6Wsy67eXHdfPU_oL1Y3hZHxnsipwJ-kh-Pd3HwV6BpsmRBQibHwShLlic3Mh001RtDElwrTTvvhIp40cOic3Uury95M4lqmsDgW2K2yntIAjMqWdVG2BfvaAZVqKR0ejt5uhOWXNiU0OnCBxMGiEPmm2AEcsv5rIhdmMe-4skAd3oXPHKciXjETqe30sxgJbT9H9VLkBholZDEc1ZMXaomASIDKEXCbQaxXYvgadlxffwbaiyGCUzhAZzppVMFF2lugBQIXi5i8slSiwgL9RojEiTy95w97QqC5hXQeoM1NYhZU74Khl0CQ=﷮﷯</ssh_private_key>
+        <sys_class_name>ssh_private_key_credentials</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:58:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1a302c7747861110315c6285d36d435b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:58:13</sys_updated_on>
+        <tag/>
+        <type>ssh_private_key</type>
+        <use_context>false</use_context>
+        <use_high_security>false</use_high_security>
+        <user_name>zaskan</user_name>
+    </ssh_private_key_credentials>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-26 19:58:48</sys_created_on>
+        <sys_id>0170ac7747861110315c6285d36d438c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>zaskan</sys_name>
+        <sys_package display_value="Red Hat Summit Connect 2022" source="x_903017_red_hat_0">e931983747461110315c6285d36d4317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Red Hat Summit Connect 2022">e931983747461110315c6285d36d4317</sys_scope>
+        <sys_update_name>sys_metadata_link_0170ac7747861110315c6285d36d438c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:58:48</sys_updated_on>
+        <tablename>discovery_credentials</tablename>
+    </sys_metadata_link>
+</record_update>
